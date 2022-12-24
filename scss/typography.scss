@@ -23,6 +23,6 @@ h1, .h1 {
 }
 
 ::marker {
-  color: map-get($accent, default); 
+  color: map-get($accent, default);
   font-weight: bold;
 }

@@ -1,2 +1,10 @@
-# final-work-hillel
-This is my final work on the Front End Basic course of the Hillel computer school
+# frontend
+
+## Щоб запустити проєкт локально
+- Встановити Node.js і npm https://nodejs.org/en/download/ (npm встановлюється разом із Node.js) 
+  - Для перевірки виконайте наступні команди в bash:
+    - `node -v` — має видати версію Node.js
+    - `npm -v` — має видати версію npm
+- Встановити Grunt.js: `sudo npm install -g grunt-cli`. `sudo` необхідне, щоб мати достатньо прав для встановлення глобального пакету.
+- Встановити проєктні залежності: `npm install`, які можна бачити в файлі `package.json`
+- В окремому вікні bash запустити процес, що буде слідкувати за змінами `.scss` стилів: `grunt`. Щоб завершити процес, натисніть `Ctrl+c` на Windows або `Cmnd+c` на Linux-like.
